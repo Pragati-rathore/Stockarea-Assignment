@@ -1,0 +1,58 @@
+/* WarehouseDetailEdit.css */
+
+/* Container styles */
+div {
+    font-family: Arial, sans-serif;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Title styles */
+  h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Input styles */
+  input[type="text"],
+  input[type="number"],
+  input[type="checkbox"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  /* Button styles */
+  button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Animation for input fields on hover */
+  input:hover {
+    transform: scale(1.02);
+  }
+  
+  /* Animation for buttons on hover */
+  button:hover {
+    transform: scale(1.05);
+  }
+  
